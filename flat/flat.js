@@ -1,3 +1,4 @@
+// sellectors
 const myCheckbox = document.getElementById("myCheckbox");
 const visaBtn = document.getElementById("visaBtn");
 const masterCardBtn = document.getElementById("masterCardBtn");
