@@ -1,0 +1,17 @@
+charAt
+indexOf
+startsWith
+endsWith
+lastIndexOf
+toUpperCase()
+toLowerCase()
+length
+padStart
+padEnd
+replaceAll
+
+= assignment operator
+== comparison operator ( compares if values are equal)
+=== strict equality operator (compares if values & datatype are equal)
+!= inequality operator
+!== strict enequality operator

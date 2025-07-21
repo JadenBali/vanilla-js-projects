@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 10px solid blue;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+#myH1{
+    font-size: 3rem;
+    color: hsl(0, 0%, 25%);
+}
+#scoreIdentifier{
+    font-size: 4rem;
+}
+#btnContainor{
+    text-align: center;
+}
+.btns{
+    font-size: 7rem;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    background-color: hsl(180, 100%, 40%);
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.btns:hover{
+    background-color: hsl(180, 100%, 50%);
+}
+.btns:active{
+    background-color: hsl(180, 100%, 40%);
+}
+.subResult{
+    font-size: 2rem;
+}
+#resultResult{
+    font-size: 3rem;
+}
+.greenText, #playerScoreDisplay{
+    color: green;
+}
+.redText, #computerScoreDisplay{
+    color: red;
+}
+.yellowText{
+    color: yellow;
+}
+#scoreDisplay{
+    font-size: 1.5rem;
+}

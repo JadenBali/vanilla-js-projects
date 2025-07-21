@@ -1,0 +1,19 @@
+#btnContainor{
+    text-align: center;
+}
+#myP{
+    text-align: center;
+    font-size: 6em;
+    font-family: Impact;
+}
+.buttons{
+    padding: 10px 20px;
+    background-color: rgb(252, 7, 7);
+    border-color: white;
+    border-radius: 10px;
+    transition: background-color 2s;
+}
+.buttons:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+}
