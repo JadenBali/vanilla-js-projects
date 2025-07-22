@@ -12,6 +12,12 @@ function clearDisplay(){
 function calculate(){
     try{
         display.value = eval(display.value);
+        if(isNaN(display.value)){
+            display.value = 0;
+        }
+        if(!isFinite(display.value)){
+            display.value = 0;
+        }
         setTimeout(clearDisplay,2000)
     }
     catch(error){

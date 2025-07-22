@@ -1,4 +1,4 @@
-const selectorObject = document.getElementById(`mySelectorObject`)
+const selectorObject = document.getElementById(`mySelectorObject`);
 const selectorObject2 = document.getElementById(`mySelectorObject2`);
 const selectorOperator = document.getElementById(`selectorOperator`);
 const selectorItems = document.getElementById(`selectorItems`);
