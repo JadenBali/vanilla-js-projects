@@ -11,12 +11,16 @@ function clearDisplay(){
 
 function calculate(){
     try{
-        display.value = eval(display.value);
-        if(isNaN(display.value)){
-            display.value = 0;
+        value = eval(value);
+        value = Number(value)
+        if(isNaN(value)){
+            value = 0;
         }
-        if(!isFinite(display.value)){
-            display.value = 0;
+        if(!isFinite(value)){
+            value = 0;
+        }
+        if(value % 2 !== 0){
+            value.toFixed(2)
         }
         setTimeout(clearDisplay,2000)
     }
@@ -24,6 +28,7 @@ function calculate(){
         display.value = `Error`;
         setTimeout(clearDisplay, 3000);
     }
+    let value = display.value
     
 }
 document.title = `My calculator`;
